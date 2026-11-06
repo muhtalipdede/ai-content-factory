@@ -1,0 +1,20 @@
+{
+  "episode_id": "ep_example_001",
+  "title": "Example: a concrete claim belongs here",
+  "summary": "One-sentence summary of the episode.",
+  "lesson": "Optional takeaway.",
+  "tags": ["shorts"],
+  "description": "",
+  "sources": [],
+  "shots": [
+    {
+      "shot_id": "s01",
+      "duration_sec": 8,
+      "speaker": "narrator",
+      "dialogue": "Opening hook — preferably a question?",
+      "visual_prompt": "cinematic still matching the topic, no text",
+      "characters": [],
+      "motion": "pan"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-content-factory"
+version = "0.1.0"
+description = "Multi-project YouTube Shorts pipeline: ideate → script → assets → TTS → FFmpeg → publish"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "AI Content Factory contributors" }]
+keywords = ["youtube", "shorts", "ffmpeg", "openai", "content-factory"]
+dependencies = [
+  "openai>=1.40.0",
+  "python-dotenv>=1.0.1",
+  "pydantic>=2.7.0",
+  "httpx>=0.27.0",
+  "Pillow>=10.4.0",
+  "google-api-python-client>=2.140.0",
+  "google-auth>=2.32.0",
+  "google-auth-oauthlib>=1.2.1",
+  "google-auth-httplib2>=0.2.0",
+  "tenacity>=8.5.0",
+  "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+acf = "jobs.run_episode:main"
+
+[tool.setuptools]
+py-modules = ["config", "orchestrator"]
+
+[tool.setuptools.packages.find]
+include = ["pipeline*", "jobs*"]
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]

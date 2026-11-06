@@ -1,0 +1,59 @@
+{
+  "episode_id": "ep_demo_postit",
+  "title": "Few people know: the sticky note came from a failed glue",
+  "summary": "A weak adhesive invented in 1968 later became the Post-it Note after years of searching for a use.",
+  "lesson": "Failed experiments can still become products when someone finds the right problem.",
+  "tags": ["demo", "history", "invention", "shorts"],
+  "description": "Few people know: the sticky note came from a failed glue.\n\nIn 1968, Spencer Silver at 3M created a weak, reusable adhesive while trying to invent a strong one. Years later Art Fry needed a bookmark that would stay put in a choir hymnal. Their collaboration led to Post-it Notes, launched widely in 1980.\n\nSources:\n- https://www.invent.org/blog/trends-stem/who-invented-post-it-notes\n- https://www.3m.com/3M/en_GB/post-it-notes/contact-us/about-us/\n\nDemo Facts — sample project for AI Content Factory.\n#Demo #History #Shorts",
+  "sources": [
+    "https://www.invent.org/blog/trends-stem/who-invented-post-it-notes",
+    "https://www.3m.com/3M/en_GB/post-it-notes/contact-us/about-us/"
+  ],
+  "shots": [
+    {
+      "shot_id": "s01",
+      "duration_sec": 8,
+      "speaker": "narrator",
+      "dialogue": "Could a failed glue become one of the world's most useful office products?",
+      "visual_prompt": "moody close-up of blank yellow sticky notes under warm desk lamp, cinematic grain, no text",
+      "characters": [],
+      "motion": "pan"
+    },
+    {
+      "shot_id": "s02",
+      "duration_sec": 10,
+      "speaker": "narrator",
+      "dialogue": "In 1968, a chemist at 3M was trying to invent a strong adhesive — and found a weak one instead.",
+      "visual_prompt": "stylized laboratory bench with amber bottles and soft teal light, documentary still, no readable labels",
+      "characters": [],
+      "motion": "still"
+    },
+    {
+      "shot_id": "s03",
+      "duration_sec": 12,
+      "speaker": "narrator",
+      "dialogue": "For years nobody knew what to do with it. Then a colleague needed a bookmark that would stay put in a choir hymnal.",
+      "visual_prompt": "open hymnal on a wooden pew with a soft shaft of window light, atmospheric, no readable text",
+      "characters": [],
+      "motion": "pan"
+    },
+    {
+      "shot_id": "s04",
+      "duration_sec": 10,
+      "speaker": "narrator",
+      "dialogue": "That weak glue became the sticky note. After trials in the late 1970s, Post-it Notes rolled out widely in 1980.",
+      "visual_prompt": "archival-style office desk with stacks of yellow notes catching practical light, cinematic still",
+      "characters": [],
+      "motion": "still"
+    },
+    {
+      "shot_id": "s05",
+      "duration_sec": 8,
+      "speaker": "narrator",
+      "dialogue": "A product that started as a failure — until someone found the right problem. Sources are in the description.",
+      "visual_prompt": "single sticky note peeling from a dark surface into soft light, metaphoric closing shot, no text",
+      "characters": [],
+      "motion": "pan"
+    }
+  ]
+}

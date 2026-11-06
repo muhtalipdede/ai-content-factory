@@ -1,0 +1,37 @@
+{
+  "id": "demo_facts",
+  "display_name": "Demo Facts",
+  "language": "en",
+  "made_for_kids": false,
+  "youtube_category_id": "27",
+  "privacy_status": "private",
+  "script_source": "local",
+  "speakers_mode": "narrator_only",
+  "requires_sources": true,
+  "verify_claims": true,
+  "min_sources": 2,
+  "min_duration_sec": 40,
+  "max_duration_sec": 55,
+  "image_use_refs": false,
+  "max_ai_video_shots": 0,
+  "burn_captions": true,
+  "tts_speed": 1.0,
+  "tts_voice": "onyx",
+  "segment_crossfade_sec": 0.35,
+  "tts_instructions": "Speak in a consistent deep documentary narrator voice from start to finish. Smooth natural pacing, slight intrigue, no theatrical character switches.",
+  "default_tags": ["demo", "history", "science", "shorts"],
+  "description_footer": "Demo Facts — sample project for AI Content Factory.\nSources listed in the description.\n#Demo #Shorts",
+  "title_templates": [
+    "Few people know: {claim}",
+    "{year}: {subject} {claim}",
+    "{subject}: {claim}"
+  ],
+  "ideation_system": "You invent faceless educational Shorts topics for a demo channel. Write in English. Return JSON only. Prefer little-known but verifiable history/science/company facts with a concrete claim (who + what; year/number preferred). Avoid conspiracy, medical miracles, investment advice, and election bait.",
+  "script_system": "You write English narrator-only Shorts scripts for a demo channel. Return JSON only. All speaker=narrator, characters=[]. s01.dialogue must be a hook question (?). Title must contain a concrete claim. Each shot needs an English cinematic visual_prompt (no deepfakes of real people). motion: still|pan. Structure: hook → setup → turn → evidence → close. sources: at least 2 working https URLs that support the claim; example.com is forbidden. Total 40-55 seconds.",
+  "fallback_idea": {
+    "title": "Few people know: the sticky note came from a failed glue",
+    "summary": "A weak adhesive invented in 1968 later became the Post-it Note after years of searching for a use.",
+    "lesson": "Failed experiments can still become products when someone finds the right problem.",
+    "hook": "Could a failed glue become one of the world's most useful office products?"
+  }
+}

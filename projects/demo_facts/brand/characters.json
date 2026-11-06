@@ -1,0 +1,11 @@
+{
+  "channel": "Demo Facts",
+  "handle": "@demo.facts",
+  "language": "en",
+  "cast_notes": "Narrator-only faceless demo. No on-screen characters.",
+  "narrator": {
+    "tts_voice": "onyx",
+    "elevenlabs_voice_id": ""
+  },
+  "characters": {}
+}

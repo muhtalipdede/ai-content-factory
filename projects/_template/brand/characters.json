@@ -1,0 +1,11 @@
+{
+  "channel": "New Project",
+  "handle": "@your.handle",
+  "language": "en",
+  "cast_notes": "Copy projects/_template to projects/<id>/ and edit. Leave characters empty for narrator-only channels.",
+  "narrator": {
+    "tts_voice": "alloy",
+    "elevenlabs_voice_id": ""
+  },
+  "characters": {}
+}

@@ -1,0 +1,37 @@
+{
+  "id": "new_project",
+  "display_name": "New Project",
+  "language": "en",
+  "made_for_kids": false,
+  "youtube_category_id": "22",
+  "privacy_status": "private",
+  "script_source": "openai",
+  "speakers_mode": "narrator_only",
+  "requires_sources": false,
+  "verify_claims": false,
+  "min_sources": 1,
+  "min_duration_sec": 40,
+  "max_duration_sec": 60,
+  "image_use_refs": false,
+  "max_ai_video_shots": 0,
+  "burn_captions": true,
+  "tts_speed": 1.0,
+  "tts_voice": "alloy",
+  "segment_crossfade_sec": 0.35,
+  "tts_instructions": "Speak in a clear, consistent narrator voice from start to finish. Natural pacing, no theatrical character switches.",
+  "default_tags": ["shorts"],
+  "description_footer": "#Shorts",
+  "title_templates": [
+    "{claim}",
+    "{year}: {subject} {claim}",
+    "{subject}: {claim}"
+  ],
+  "ideation_system": "You invent YouTube Shorts topics. Write in the project language. Return JSON only. Prefer concrete, verifiable claims (who + what happened; year/number when useful). Avoid conspiracy, medical miracles, investment advice, and election bait.",
+  "script_system": "You write Shorts scripts. Return JSON only. Dialogue in the project language; visual_prompt in English. motion: still|pan. Prefer narrator-only unless characters are configured. Total duration about 40-60 seconds. Include working https sources when the project requires them.",
+  "fallback_idea": {
+    "title": "Example: a concrete claim belongs here",
+    "summary": "One-sentence summary of the episode.",
+    "lesson": "Optional takeaway.",
+    "hook": "Opening hook — preferably a question?"
+  }
+}
